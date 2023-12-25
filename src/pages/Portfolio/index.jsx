@@ -8,6 +8,7 @@ import { TechnoogiesButton } from "components/TechnologiesButton";
 
 const PortfolioPage = () => {
   const TechnologiesName = ["ROR", "ReactJs", "NodeJs", "MongoDB", "JavaScript", "TypeScript", "MaterialUI"]
+  // const TechnologiesName = ["ROR"]
   return (
     <>
       <div
@@ -15,7 +16,7 @@ const PortfolioPage = () => {
         style={{ backgroundImage: "url('images/img_portfolio.png')" }}
       >
         <div className="flex flex-col items-center justify-start max-w-[1168px] mb-[60px] mx-auto md:px-5 w-full">
-          <Header className="flex flex-row md:gap-10 sm:gap-[180px] gap-[843px] items-center md:justify-between justify-center sm:justify-start w-full" />
+          <Header className="flex flex-row md:gap-10 items-center justify-between w-full" />
           <div className="bg-gray-900 flex flex-col h-[231px] items-center justify-start mt-[123px] pl-0.5 pt-0.5 rounded-[115px] w-[231px]">
             <div className="flex flex-col items-center justify-start w-[228px] md:w-full">
               <Img
@@ -150,8 +151,8 @@ const PortfolioPage = () => {
                   </Text>
                 </div>
                 <Text
-                  className="mt-8 text-[10px] text-center text-gray-300"
-                  size="txtInterMedium10"
+                  className="mt-8 text-[13px] text-center text-gray-300"
+                  size="txtInterMedium17"
                 >
                   <>
                     Currently, I am working in Veersa Technoogies a service
@@ -171,7 +172,7 @@ const PortfolioPage = () => {
                     <br />
                   </>
                 </Text>
-                <div className="flex flex-row gap-[9px] items-center justify-start mt-4 w-[42%] md:w-full">
+                <div className="flex flex-wrap gap-[9px] items-center justify-start mt-4 w-[80%] md:w-full">
                   {
                     TechnologiesName.map((item, index) => (
                       <TechnoogiesButton techName={item} key={index} />
@@ -255,15 +256,15 @@ const PortfolioPage = () => {
                             className="text-[16.22px] text-center text-white-A700 tracking-[-0.49px]"
                             size="txtInterExtraBold1622"
                           >
-                            HireSide
+                            Duly
                           </Text>
                           <Text
-                            className="mt-[3px] text-[6px] text-blue_gray-400 tracking-[-0.18px] w-full"
+                            className="mt-[3px] text-[10px] text-blue_gray-400 tracking-[-0.18px] w-full"
                             size="txtInterMedium6"
                           >
-                            Developed a web application on Next.js that allows
-                            users to apply for jobs, create job posts, and
-                            manage their company profiles.{" "}
+                            Create a website with teamwork for Duly where they 
+                            can patient can book appointment online and see all the
+                            prescriptions reports as well as book for imaging and more.{" "}
                           </Text>
                         </div>
                       </div>
@@ -284,13 +285,13 @@ const PortfolioPage = () => {
                             className="text-[16.22px] text-center text-white-A700 tracking-[-0.49px]"
                             size="txtInterExtraBold1622"
                           >
-                            Verge Systems
+                            Pharmacord
                           </Text>
                           <Text
-                            className="ml-1 md:ml-[0] text-[6px] text-blue_gray-400 tracking-[-0.18px]"
+                            className="md:ml-[0] text-[10px] text-blue_gray-400 tracking-[-0.18px]"
                             size="txtInterMedium6"
                           >
-                            Developed the Verge Systems website using React.js.
+                            Developed the Portal for hospitals to take the payments.
                           </Text>
                         </div>
                       </div>
@@ -309,14 +310,14 @@ const PortfolioPage = () => {
                             className="text-[16.22px] text-center text-white-A700 tracking-[-0.49px]"
                             size="txtInterExtraBold1622"
                           >
-                            Payoasis{" "}
+                            Flywire{" "}
                           </Text>
                           <Text
-                            className="text-[6px] text-blue_gray-400 tracking-[-0.18px]"
+                            className="text-[10px] text-blue_gray-400 tracking-[-0.18px]"
                             size="txtInterMedium6"
                           >
-                            Designed the modern UI for a banking website
-                            utilizing Gatsby.
+                           Using ROR to make a payment gateway using credit cards, digital wallets
+                           and echecks.
                           </Text>
                         </div>
                       </div>

@@ -16,14 +16,14 @@ const Projects = (props) => {
             className="text-[16.22px] text-center text-white-A700 tracking-[-0.49px]"
             size="txtInterExtraBold1622"
           >
-            WebHR
+            Techecies
           </Text>
           <Text
-            className="md:ml-[0] ml-[3px] mt-0.5 text-[6px] text-blue_gray-400 tracking-[-0.18px] w-[99%] sm:w-full"
+            className="md:ml-[0] ml-[3px] mt-0.5 text-[10px] text-blue_gray-400 tracking-[-0.18px] w-[99%] sm:w-full"
             size="txtInterMedium6"
           >
-            Designed a modern UI website comprising more than 50 screens, along
-            with the integration of a blog using Next.js.
+            Created the registration form page and implemented Mail service,
+            Payment gateway using nodeJs and MongoDB.
           </Text>
         </div>
       </div>

@@ -11,6 +11,7 @@ const Footer = (props) => {
           src="images/img_socialicons.svg"
           alt="socialicons"
         />
+        <a href="https://www.buymeacoffee.com/utsavmeh"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="30" width="100" alt="utsavmeh" /></a>
         <div className="h-6 relative w-full">
           <Text
             className="m-auto text-[10px] text-center text-gray-300"
