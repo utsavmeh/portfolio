@@ -1,8 +1,18 @@
 import React from "react";
 
 import { Button, Img, Text } from "components";
+import { Link } from "react-router-dom";
 
 const Header = (props) => {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+
+    if (section) {
+      section.scrollIntoView({
+        behavior: 'smooth',
+      });
+    }
+  };
   return (
     <>
       <header className={props.className}>
@@ -34,6 +44,7 @@ const Header = (props) => {
             color="gray_500"
             size="xs"
             variant="outline"
+            onClick={() => scrollToSection('aboutme')}
           >
             About me
           </Button>
@@ -43,6 +54,7 @@ const Header = (props) => {
             color="white_A700"
             size="xs"
             variant="fill"
+            onClick={() => scrollToSection('contactme')}
           >
             Contact
           </Button>

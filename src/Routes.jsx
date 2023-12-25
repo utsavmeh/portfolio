@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NotFound from "pages/NotFound";
+import AboutMe from "components/AboutMe";
 const Portfolio = React.lazy(() => import("pages/Portfolio"));
 const ProjectRoutes = () => {
   return (
@@ -9,7 +10,7 @@ const ProjectRoutes = () => {
         <Routes>
           <Route path="/" element={<Portfolio />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/aboutme" element={<AboutMe />} />
         </Routes>
       </Router>
     </React.Suspense>

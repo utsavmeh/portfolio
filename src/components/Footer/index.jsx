@@ -1,37 +1,18 @@
 import React from "react";
-
-import { Img, Text } from "components";
+import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
 
 const Footer = (props) => {
-  return (
+  return (  
     <>
-      <div className={props.className}>
-        <Img
-          className="h-[15px] w-[174px]"
-          src="images/img_socialicons.svg"
-          alt="socialicons"
-        />
-        <a href="https://www.buymeacoffee.com/utsavmeh"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="30" width="100" alt="utsavmeh" /></a>
-        <div className="h-6 relative w-full">
-          <Text
-            className="m-auto text-[10px] text-center text-gray-300"
-            size="txtInterMedium10"
-          >
-            <>
-              Loosely designed in Figma and coded in Visual Studio Code by yours
-              truly. Built with Next.js
-              <br />
-              and Tailwind CSS, deployed with Vercel. All text is set in the
-              Inter typeface.
-            </>
-          </Text>
-          <Img
-            className="absolute h-[11px] left-[22%] top-[0]"
-            src="images/img_figma.svg"
-            alt="figma"
-          />
-        </div>
+      <div className={props.className} id="contactme">
+        <a href="https://www.github.com/utsavmeh" target="_blank"><FaGithub color="white"/></a>
+        <a href="https://www.instagram.com/mehrotra_utsav/" target="_blank"><FaInstagram color="white"/></a>
+        <a href="https://in.linkedin.com/in/utsavmeh" target="_blank"><FaLinkedin color="white"/></a>
+        <a href="mailto:utsav23mehrotra@gmail.com" target="_blank"><BiLogoGmail color="white"/></a>
+        <a href="https://wa.me/9140727830" target="_blank"><FaWhatsapp color="white"/></a>
       </div>
+      {/* <a href="https://www.buymeacoffee.com/utsavmeh"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="150" alt="utsavmeh" /></a> */}
     </>
   );
 };
