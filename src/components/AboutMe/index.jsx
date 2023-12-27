@@ -3,6 +3,7 @@ import { Text, Img, List } from "components";
 import { TechnoogiesButton } from "components/TechnologiesButton";
 import Projects from "components/Projects";
 import Footer from "components/Footer";
+import './aboutme.css';
 
 const AboutMe = () => {
   const TechnologiesName = ["ROR", "ReactJs", "NodeJs", "MongoDB", "JavaScript", "TypeScript", "MaterialUI"]
@@ -139,15 +140,15 @@ const AboutMe = () => {
 					orientation="vertical"
 				>
 					<div className="flex flex-1 md:flex-col flex-row gap-[25px] items-center justify-between w-full">
-						<div className="flex md:flex-1 flex-col items-center justify-start md:justify-start w-[48%] md:w-full">
-							<Projects className="flex flex-row gap-3.5 items-center justify-between w-full" />
+						<div className="flex md:flex-1 flex-col items-center justify-start md:justify-start w-[49%] md:w-full">
+							<Projects className="flex flex-row gap-3.5 items-center justify-between w-full"/>
 						</div>
 						<div className="flex md:flex-1 flex-col items-center md:justify-between justify-start w-[49%] md:w-full">
 							<div className="flex flex-row gap-5 items-center justify-between md:p-[] md:pb-[] md:pl-[] md:pr-[] md:pt-[] w-full">
-								<div className="bg-white-A700 flex flex-col md:h-20 sm:h-[50px] items-center md:justify-center justify-start p-[25px] md:p-[] md:pb-[] md:pl-[] md:pr-[] md:pt-[] sm:px-5 rounded-[7px] sm:w-[100px] md:w-[199px] w-[38%]">
+								<div className="bg-white-A700 zoom-hover flex flex-col md:h-20 sm:h-[50px] items-center md:justify-center justify-start pt-[25px] pb-[25px] pl-[15px] pr-[15px] md:p-[] md:pb-[] md:pl-[] md:pr-[] md:pt-[] sm:px-5 rounded-[7px] sm:w-[100px] md:w-[199px]">
 									<Img
-										className="h-4 md:h-auto my-0.5 object-cover w-[99%]"
-										src="images/img_image4.png"
+										className="h-auto md:h-auto my-0.5 object-cover w-[200px]"
+										src="images/duly.png"
 										alt="imageFour"
 									/>
 								</div>
@@ -173,10 +174,10 @@ const AboutMe = () => {
 					<div className="flex md:flex-1 md:flex-col flex-row md:gap-10 items-center justify-between w-[97%] md:w-full">
 						<div className="flex flex-col items-center justify-start w-[44%] md:w-full">
 							<div className="flex flex-row gap-[17px] items-center justify-between w-full">
-								<div className="bg-white-A700 flex flex-col md:h-[100px] sm:h-[50px] items-center md:justify-center justify-start p-[23px] sm:px-5 rounded-[7px] sm:w-[100px] md:w-[200px] w-[44%]">
+								<div className="bg-white-A700 zoom-hover flex flex-col md:h-[100px] sm:h-[50px] items-center md:justify-center justify-start p-[23px] sm:px-5 rounded-[7px] sm:w-[100px] md:w-[200px] w-[44%]">
 									<Img
-										className="h-4 md:h-auto my-1 object-cover w-full"
-										src="images/img_image6.png"
+										className="h-auto my-1 object-cover w-[200px]"
+										src="images/pharmacord.png"
 										alt="imageSix"
 									/>
 								</div>
@@ -198,10 +199,10 @@ const AboutMe = () => {
 						</div>
 						<div className="flex flex-col items-center justify-start w-[47%] md:w-full">
 							<div className="flex flex-row gap-5 items-center justify-between w-full">
-								<div className="bg-white-A700 flex flex-col md:h-[100px] sm:h-[50px] items-center md:justify-center justify-start p-4 rounded-[7px] w-2/5 sm:w-[100px] md:w-[200px]">
+								<div className="bg-white-A700 zoom-hover flex flex-col md:h-[100px] sm:h-[50px] items-center md:justify-center justify-start p-4 rounded-[7px] w-2/5 sm:w-[100px] md:w-[200px]">
 									<Img
-										className="h-[38px] md:h-auto object-cover w-[33%]"
-										src="images/img_image9.png"
+										className="h-auto object-cover w-[200px]"
+										src="images/flywire.png"
 										alt="imageNine"
 									/>
 								</div>

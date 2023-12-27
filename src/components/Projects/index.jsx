@@ -6,11 +6,13 @@ const Projects = (props) => {
   return (
     <>
       <div className={props.className}>
-        <Img
-          className="block md:flex md:h-[100px] sm:h-[50px] h-[70px] md:items-center md:justify-center object-cover rounded-[7px] sm:w-[100px] md:w-[200px]"
-          src="images/img_image2.png"
-          alt="imageTwo"
-        />
+      <div className="bg-white-A700 zoom-hover flex flex-col md:h-[100px] sm:h-[50px] items-center md:justify-center justify-start p-[23px] sm:px-5 rounded-[7px] sm:w-[100px] md:w-[200px] w-[58%]">
+          <Img
+            className="block md:flex md:h-[100px] sm:h-[50px] h-auto md:items-center md:justify-center object-cover rounded-[7px] sm:w-[100px] md:w-[200px]"
+            src="images/techecies.png" 
+            alt="imageTwo"
+          />
+        </div>
         <div className="flex flex-col items-start justify-start md:w-1/2 sm:w-3/5">
           <Text
             className="text-[16.22px] text-center text-white-A700 tracking-[-0.49px]"
