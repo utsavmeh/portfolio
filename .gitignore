@@ -12,6 +12,10 @@
 /build
 .history
 
+# sonar logs
+
+.scannerwork
+
 # misc
 .DS_Store
 .env.local
