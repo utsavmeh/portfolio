@@ -50,11 +50,7 @@ services:
     volumes:
       - ./src:/usr/src
     environment:
-      - SONAR_HOST_URL=http://sonarqube:9000
-      - SONAR_TOKEN=squ_dc41e1e59a405fa7a9d19d6c0915509843491fb2
-      - SONAR_SCANNER_OPTS=-Dsonar.projectKey=sqp_08c9ded65b76bff83add296ca2e69680b8349553
-      - SONAR_SCM_PROVIDER=git
-      - SONAR_PROJECT_BASE_DIR=/usr/src
+      - sonar.env
     networks:
       - sonarnet
     depends_on:

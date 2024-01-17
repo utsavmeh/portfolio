@@ -16,6 +16,10 @@
 
 .scannerwork
 
+#environment variable
+.env
+sonar.env
+
 # misc
 .DS_Store
 .env.local
